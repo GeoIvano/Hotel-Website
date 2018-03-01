@@ -1,0 +1,192 @@
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    height: 150px;
+    float: left;
+    position: relative;
+    top: -50px;
+}
+
+#menu {
+    height: 100px;
+    background-color: #112f3b;
+}
+
+.menu {
+    padding: 16px 22px;
+    float: right;
+}
+
+.menu a {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    text-shadow: 5px 5px 10px blue;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -65px;
+}
+
+#reservation label {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reservation legend {
+    margin-left: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#reservation {
+    width: 40%;
+    position: relative;
+    top: -35px;
+    background-color: #2c4162;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+#reservation label,
+#reservation input {
+    margin-left: 15px;
+}
+
+#reservation div {
+    float: left;
+    margin-right: 5px;
+}
+
+input[type='number'] {
+    width: 40px;
+}
+
+#reserve {
+    clear: left;
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: #89cee9;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+}
+
+#reserve:hover {
+    background-color: #00aef0;
+}
+
+footer {
+    background-color: #2b5464;
+    overflow: hidden;
+}
+
+.socialIcons {
+    float: left;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+footer p {
+    color: white;
+}
+
+.subscribe {
+    float: right;
+    margin-right: 50px;
+    margin-top: 17px;
+}
+
+.rights {
+    text-align: center;
+    margin-top: 90px;
+}
+
+input[type=submit] {
+    background-color: #0055BD;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+input[type=submit]:hover {
+    background-color: #6D9ED9;
+}
+
+textarea[name=message] {
+    resize: none;
+}
+
+#info {
+    background-color: #d4edf7;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.address {
+    float: right;
+}
+
+label[for=email] {
+    display: inline;
+}
+
+.fa.fa-home,
+.fa.fa-map-marker,
+.fa.fa-phone-square {
+    font-size: 30px;
+    color: #0055BD;
+}
+
+#aboutUs {
+    overflow: hidden;
+    padding: 10px;
+    border: 10px;
+    border-top-style: solid;
+    border-color: rgb(177, 161, 161);
+    border-width: 1px;
+}
+
+.text {
+    float: left;
+    width: 50%;
+}
+
+#aui {
+    margin-top: 70px;
+    float: right;
+    width: 50%;
+}
+
+@media screen and (max-width:1024px) {
+    .wrapper {
+        width: 100%;
+    }
+    #reservation {
+        min-width: 60%
+    }
+}
