@@ -1,3 +1,12 @@
+@media screen and (max-width:1024px) {
+    .wrapper {
+        width: 100%;
+    }
+    #reservation {
+        min-width: 60%
+    }
+}
+
 .wrapper {
     width: 90%;
     margin: auto;
@@ -20,7 +29,7 @@ body {
 }
 
 .menu {
-    padding: 16px 22px;
+    padding: 30px 22px;
     float: right;
 }
 
@@ -94,7 +103,7 @@ input[type='number'] {
 }
 
 footer {
-    background-color: #2b5464;
+    background-color: #112f3b;
     overflow: hidden;
 }
 
@@ -180,13 +189,4 @@ label[for=email] {
     margin-top: 70px;
     float: right;
     width: 50%;
-}
-
-@media screen and (max-width:1024px) {
-    .wrapper {
-        width: 100%;
-    }
-    #reservation {
-        min-width: 60%
-    }
 }
